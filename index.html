@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Akaya+Kanadaka&family=Rye&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Warung Ateventure</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 class="animate__animated animate__backInLeft judul"><span class="first">Asasta</span><span
+                    class="last">Vikrayana</span></h1>
+
+            <ul class="animate__animated animate__backInRight navigasi">
+                <button class="nav">
+                    <a class="a" href="#home">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </button>
+                <button class="nav">
+                    <a class="a" href="#food">
+                        <i class="fa-solid fa-bowl-food"></i>
+                        Food
+                    </a>
+                </button>
+            </ul>
+        </div>
+
+        <div id="home" class="wrapper1">
+            <img class="pp" src="foto/logo,jpg.jpg" />
+            <div class="explain">
+                <h1 class="asasta"><span class="pertama">Asasta </span><span class="kedua">Vikrayana</span></h1>
+                <p class="lorem">Asasta Vikrayana adalah usaha yang memproduksi Nugget Tempe, berbahan dasar tempe dari
+                    kacang kedelai budidaya masyarakat perkampungan. Nama usaha ini berasal dari bahasa Sanskerta,
+                    menggambarkan perdagangan yang berkembang dengan inovasi dan evaluasi berkelanjutan untuk menarik
+                    pembeli. Fokus pada perubahan dan kualitas produk yang terus berkembang.</p>
+            </div>
+        </div>
+        <h1 class="menuPage">Food Dish</h1>
+    </div>
+
+    <div class="wrapper2">
+        <ul id="food" class="pilihan">
+            <li class="li">
+                <img class="nugget" src="foto/NuggetFoto.jpg">
+                <div class="deskripsi">
+                    <p class="nameProduk">Nugget Nepei's</p>
+                    <h1 class="harga">Rp 10.000</h1>
+                    <button id="buy" onclick="sayBuy()" class="beli">Beli Sekarang!</button>
+                </div>
+            </li>
+            <li class="Pie Susu Buah">
+                <img class="nugget" src="foto/Pie Susu.jpg">
+                <div class="deskripsi">
+                    <p class="nameProduk">Pie Susu Buah</p>
+                    <h1 class="harga">Rp 3.000</h1>
+                    <button id="buy" onclick="sayBuy()" class="beli">Beli Sekarang!</button>
+                </div>
+            </li>
+            <li class="Lapis Legit">
+                <img class="nugget" src="foto/Lapis Legit.jpg">
+                <div class="deskripsi">
+                    <p class="nameProduk">Lapis Legit</p>
+                    <h1 class="harga">Rp 3.000</h1>
+                    <button id="buy" onclick="sayBuy()" class="beli">Beli Sekarang!</button>
+                </div>
+            </li>
+            <li class="Es Cincau Gula Aren">
+                <img class="nugget" src="foto/cappucino.jpeg">
+                <div class="deskripsi">
+                    <p class="nameProduk">Es Cincau Gula Aren</p>
+                    <h1 class="harga">Rp 10.000</h1>
+                    <button id="buy" onclick="sayBuy()" class="beli">Beli Sekarang!</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
